@@ -2,11 +2,3 @@ body {
     margin: 0;
     background-color: whitesmoke;
 };
-
-div.home {
-    color: brown;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}

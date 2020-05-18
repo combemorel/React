@@ -5,19 +5,19 @@ import './Nav.css'; // Import du style de base du composent
 
 function Nav (props) {
 	return (
-		<nav>
+		<nav >
 			<h3>Logo</h3>
-			<ul className='navlinks'>
+			<ul className='navLinks'>
 				<Link to='/'>
 					<li>Home</li>
 				</Link>
-				<Link to='/todolist'>
+				<Link to='/todoList'>
 					<li>TodoList</li>
 				</Link>
 				<Link to='/meme'>
 					<li>Meme</li>
 				</Link>
-			</ul>
+			</ul>	
 		</nav>
 	);
 };
